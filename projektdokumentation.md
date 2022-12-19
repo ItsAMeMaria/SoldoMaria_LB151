@@ -1,6 +1,6 @@
 # Projekt-Dokumentation
 
-✍️ Ihr Nachname
+✍️ Soldo
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |

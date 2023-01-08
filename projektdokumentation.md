@@ -16,9 +16,6 @@
 In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmieren. Beim Glücksrad muss man ein Rad drehen, den richtigen Buchstaben auswählen und natürlich das Wort erraten.
 
 # 1 Analyse
-
-✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
-
 * Tier 1 (Presentation): 
   * Kategorie anzeigen
   * Spieler anzeigen
@@ -36,17 +33,16 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
   * Kategorien und dessen Wörter gepseichert halten. 
 
 # 2 Technologie
-
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
-Für das Tier 1 werde ich ... verwenden
 
-Bei der Persistenz, also bei Tier 4, werde ich Firebase benutzen.
-
-
+ * Tier 1: HTML 
+ * Tier 2: ?
+ * Tier 3: ?
+ * Tier 4: MySQL oder Firebase
 
 # 3 Datenbank
-
 ✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
+?
 
 # 4.1 User Stories
 
@@ -54,12 +50,17 @@ Bei der Persistenz, also bei Tier 4, werde ich Firebase benutzen.
 
 ✍️ Formulieren Sie weitere, eigene Anforderungen und Testfälle, wie Sie Ihre Applikation erweitern möchten. Geben Sie diesen statt einer Nummer einen Buchstaben (`A`, `B`, etc.)
 
-| US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
-| ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| US-№ | Verbindlichkeit |      Typ      | Beschreibung                       |
+| ---- | --------------- | ------------- | ---------------------------------- |
+| 1    |      Muss       |   Funktional  | Als ein Spieler möchte ich ein Buchstaben auswählen können, damit ich das Wort erraten kann|
+| 2    |      Muss       |   Funktional  | Als ein Spieler möchte ich am Rad drehen, damit ich einen Betrag erhalte|
+| 3    |      Muss       |   Funktional  | Als ein Spieler möchte ich auf "lösen" klicken, damit ich das Rätsel lösen kann|
+| 4    |      Muss       |   Funktional  | Als ein Spieler möchte ich sehen welche Bichstaben noch zur Verfügung stehen und welche nicht, damit es nicht zu wiederholungen kommt|
+| 5    |                 |      |                                    |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
+
+
 
 # 4.2 Testfälle
 

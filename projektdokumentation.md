@@ -55,7 +55,7 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
 | 1    |      Muss       |   Funktional  | Als ein Spieler möchte ich ein Buchstaben auswählen können, damit ich das Wort erraten kann|
 | 2    |      Muss       |   Funktional  | Als ein Spieler möchte ich am Rad drehen, damit ich einen Betrag erhalte|
 | 3    |      Muss       |   Funktional  | Als ein Spieler möchte ich auf "lösen" klicken, damit ich das Rätsel lösen kann|
-| 4    |      Muss       |   Funktional  | Als ein Spieler möchte ich sehen welche Bichstaben noch zur Verfügung stehen und welche nicht, damit es nicht zu wiederholungen kommt|
+| 4    |      Muss       |   Funktional  | Als ein Spieler möchte ich sehen, welche Bichstaben noch zur Verfügung stehen und welche nicht, damit es nicht zu wiederholungen kommt|
 | 5    |                 |      |                                    |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
@@ -66,8 +66,11 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
 
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Der Spieler muss einen Buchstaben auswählen| Der Spieler wählt einen Buchstaben aus | Der ausgewählte Buchstabe ist entweder im Wort vorhanden oder nicht|
+| 2.1  | Der Spieler muss am Rad drehen| Der Spieler wählt die funktion aus, bei dem man am Rad drehen muss| Rad dreht sich und gibt einen Betrag aus|
+| 3.1  | Der Spieler kennt die Lösung| Der Spieler wählt die Funktion "lösen" aus| Der Spieler kann jetzt die Lösung eintragen|
+| 3.2  | Der Spieler hat "lösen" gedrückt| Der Spieler tippt die mögliche Lösung ein. | Die Lösung wird entweder als Richtig oder Flasch angezeigt|
+| 4.1  | Das Spiel läuft | Der Spieler kann ich sehen welche Buchstaben noch zur verfügung stehen | Die zur Verfügung gestellten Buchstaben werden dann benutzt|
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 

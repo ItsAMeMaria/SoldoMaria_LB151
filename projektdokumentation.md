@@ -78,12 +78,8 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
 
 ✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
 
-
-
-
-
-
-
+Quiz Seite
+![image](https://user-images.githubusercontent.com/69591610/211218128-9900ad47-a268-4016-ae98-7a2515e62504.png)
 
 
 # 6 Implementation

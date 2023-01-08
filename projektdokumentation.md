@@ -20,13 +20,29 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
 * Tier 1 (Presentation): 
+  * Kategorie anzeigen
+  * Spieler anzeigen
+  * Anzahl Punkte anzeigen
+  * Buchstaben (genommene und nicht genommene) anzeigen
+  * Buchstaben angeben
+  * Rad anzeigen
+  * Rad drehen 
 * Tier 2 (Webserver):
+  * Buchstabe mit den Buchstaben im Wort vergleichen. 
 * Tier 3 (Application Server):
+  * Ausgewählten Buchstaben mit dem gegeben Wort vergeleichen.
+  * Überprüfen ob der Buchstabe schon verwendet worden ist. 
 * Tier 4 (Dataserver):
+  * Kategorien und dessen Wörter gepseichert halten. 
 
 # 2 Technologie
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
+Für das Tier 1 werde ich ... verwenden
+
+Bei der Persistenz, also bei Tier 4, werde ich Firebase benutzen.
+
+
 
 # 3 Datenbank
 
@@ -57,6 +73,14 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
 # 5 Prototyp
 
 ✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
+
+
+
+
+
+
+
+
 
 # 6 Implementation
 

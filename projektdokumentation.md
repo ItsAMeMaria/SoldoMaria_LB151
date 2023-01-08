@@ -13,14 +13,13 @@
 |       | 1.0.0   |                                                              |
 
 # 0 Ihr Projekt
-
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmieren. Beim Glücksrad muss man ein Rad drehen, den richtigen Buchstaben auswählen und natürlich das Wort erraten.
 
 # 1 Analyse
 
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): ...
+* Tier 1 (Presentation): 
 * Tier 2 (Webserver):
 * Tier 3 (Application Server):
 * Tier 4 (Dataserver):

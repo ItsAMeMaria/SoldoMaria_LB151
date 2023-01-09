@@ -38,7 +38,7 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
  * Tier 1: HTML 
  * Tier 2: ?
  * Tier 3: ?
- * Tier 4: MySQL oder Firebase
+ * Tier 4: MySQL
 
 # 3 Datenbank
 ✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 

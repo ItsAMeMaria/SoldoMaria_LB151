@@ -83,17 +83,15 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
 # 5 Prototyp
 
 ✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
-* Willkommensseite (Spielername eintragen oder sich als Admin einloggen)
+#### Willkommensseite (Spielername eintragen oder sich als Admin einloggen)
 ![image](https://user-images.githubusercontent.com/69591610/213945317-f6497e4a-6edd-4b29-9c12-a68a262f55c8.png)
 
-* Quiz Seite
+#### Quiz Seite
 ![image](https://user-images.githubusercontent.com/69591610/211218128-9900ad47-a268-4016-ae98-7a2515e62504.png)
 
-* Admin Seite (Admin Login und Adminseite)
+#### Admin Seite (Admin Login und Adminseite)
 ![image](https://user-images.githubusercontent.com/69591610/213945488-03423f2b-abc0-489d-b9fb-8b9b2653d56a.png)
-
-
-
+![image](https://user-images.githubusercontent.com/69591610/213946010-27bde3fe-e6ea-472f-8ef7-62244ae81487.png)
 
 
 # 6 Implementation

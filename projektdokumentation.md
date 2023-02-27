@@ -60,13 +60,9 @@ Die Datenbank wird mit dem Framework, Django, gesteurt und verwaltet. Für die S
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Der Spieler muss einen Buchstaben auswählen| Der Spieler wählt einen Buchstaben aus | Der ausgewählte Buchstabe ist entweder im Wort vorhanden oder nicht|
-| 2.1  | Der Spieler muss am Rad drehen| Der Spieler wählt die funktion aus, bei dem man am Rad drehen muss| Rad dreht sich und gibt einen Betrag aus|
-| 3.1  | Der Spieler kennt die Lösung| Der Spieler wählt die Funktion "lösen" aus| Der Spieler kann jetzt die Lösung eintragen|
-| 3.2  | Der Spieler hat "lösen" gedrückt| Der Spieler tippt die mögliche Lösung ein. | Die Lösung wird entweder als Richtig oder Flasch angezeigt|
-| 4.1  | Das Spiel läuft | Der Spieler kann ich sehen welche Buchstaben noch zur verfügung stehen | Die zur Verfügung gestellten Buchstaben werden dann benutzt|
-| 5.1  | Das Spiel läuft | Die 3te Runde ist im gange | Der Rundenzähler zeigt "3" an|
-| 6.1  | Das Spiel ist gespielt / wird noch gespielt | Der Spieler drückt auf "aufhören" | Der Gewinn des Spieler wird übernommen|
-| 7.1  | Das Spiel is am laufen | Der Name des Spielers, Beispiel: "Marko" | Ausgabe in der Highscore-Liste wird dann "Marko" sein|
+| 4.1  | Das Spiel läuft | Der Spieler kann sehen welche Buchstaben noch zur verfügung stehen | Die zur Verfügung gestellten Buchstaben werden dann benutzt|
+| 7.1  | Das Spiel is am laufen | Einen Namen eintragen | Wird in der Datenbank gespeichert|
+| 7.2  | Das Spiel is am laufen | Der Name des Spielers, Beispiel: "Marko" | Ausgabe in der Highscore-Liste wird dann "Marko" sein|
 
 # 5 Prototyp
 #### Willkommensseite (Spielername eintragen oder sich als Admin einloggen)
@@ -102,11 +98,13 @@ Die Datenbank wird mit dem Framework, Django, gesteurt und verwaltet. Für die S
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 27.02.2023 | OK  |  Maria Soldo      |
+| 4.1  | 27.02.2023 |  OK/NOK  |    Maria Soldo    |
+| 7.1  | 27.02.2023 |   OK  | Maria Soldo        |
 
 #### Fazit
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Man kann einen Namen eingeben, Buchstaben eintippen aber sonst nicht viel (Keine Highscoreliste, kein Gewinner/Verlierer etc.). 
+Wenn man den richtigen Buchstaben eingetragen hat, wird der ja auch dann im Wort/Satz erscheinen, aber die die halt nicht richtig waren, erscheinen dann auch nicht, deswegen auch das OK/NOK.
 
 # 9 `README.md`
 https://github.com/ItsAMeMaria/SoldoMaria_LB151/blob/main/README.md

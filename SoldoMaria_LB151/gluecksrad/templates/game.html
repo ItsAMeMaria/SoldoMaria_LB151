@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spiel</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    {% block content %}
+    <div class="parent">
+      <div class="child">
+        <h1 class="center">WHEEL OF FORTUNE</h1>
+        <form action="{% url 'play_game' %}" method="post">
+          {% csrf_token %}
+          <label for="letter">Guess a letter:</label>
+          <input type="text" id="letter" name="letter" maxlength="1" />
+          <input type="submit" value="Guess" />
+        </form>
+      </div>
+      <div class="child2" id="gameSquare">
+        {% for letter in letters %} {% if letter == " "%}
+        <span class="wordsquareSpace">&nbsp;</span>
+        {% elif letter in guessed_letters %}
+        <span class="wordsquareGuessed">{{ letter }}</span>
+        {% else %}
+        <span class="wordsquare"></span>
+        {% endif %} {% endfor %}
+      </div>
+    </div>
+    {% endblock %}
+  </body>
+</html>

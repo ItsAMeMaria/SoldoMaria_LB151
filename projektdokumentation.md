@@ -1,16 +1,17 @@
 # Projekt-Dokumentation
 
-✍️ Soldo
+Soldo
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | 0.0.2   |                                                              |
-|       | 0.0.3   |                                                              |
-|       | 0.0.4   |                                                              |
-|       | 0.0.5   |                                                              |
-|       | 0.0.6   |                                                              |
-|       | 1.0.0   |                                                              |
+|  13.02.2023     | 0.0.1   | Datei erstellt, Django eingebunden. Index.html gemacht|
+|  19.02.2023     | 0.0.2   | Datei gelöscht, Django hat nicht richtig funktioniert.|
+|  20.02.2023     | 0.0.3   | Neues Projekt erstellt, index.html gemacht.        |
+|  21.02.2023     | 0.0.4   | Player_add() in index.html eingebunden             |
+|  21.02.2023     | 0.0.5   | Django's admin interface eingebunden in die Applikation, mit einem Admin Login|
+|  25.02.2023     | 0.0.6   | Models für die Datenbank gemacht, random_word() erstellt.   |
+|  25.02.2023     | 0.0.7   | game.html gemacht (+ kleines css)
+|  26.02.2023     | 0.0.7   | play_game() gemacht, in game.html eingebunden + random_word verfeinert. |
 
 # 0 Ihr Projekt
 In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmieren. Beim Glücksrad muss man ein Rad drehen, den richtigen Buchstaben auswählen und natürlich das Wort erraten.
@@ -33,36 +34,25 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
   * Kategorien und dessen Wörter gepseichert halten. 
 
 # 2 Technologie
-✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
-
  * Tier 1: HTML / CSS
- * Tier 2: Python oder Java (noch unsicher)
- * Tier 3: Python oder Java (noch unsicher)
- * Tier 4: SQL
+ * Tier 2: Python (Framework: Django)
+ * Tier 3: Python 
+ * Tier 4: SQLite
 
 # 3 Datenbank
-✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
-
+Die Datenbank wird mit dem Framework, Django, gesteurt und verwaltet. Für die SQLite DB gibt es schon standardmässig eine vordefinierte Einstellung in 'settings.py'. Dort stehen die Datenbankkonfigurationen.
 
 # 4.1 User Stories
 
-✍️ Formulieren Sie klare Anforderungen in der Form von User Stories (*„als … möchte ich … damit …“*) und zu jeder Anforderung mindestens einen dazugehörigen Testfall (in Kapitel 4.2). 
-
-✍️ Formulieren Sie weitere, eigene Anforderungen und Testfälle, wie Sie Ihre Applikation erweitern möchten. Geben Sie diesen statt einer Nummer einen Buchstaben (`A`, `B`, etc.)
-
 | US-№ | Verbindlichkeit |    Typ     | Beschreibung                       |
 | ---- | --------------- | ---------- | ---------------------------------- |
-| 1    |      Muss       | Funktional | Als ein Spieler möchte ich ein Buchstaben auswählen können, damit ich das Wort erraten kann|
+| 1    |      Muss       | Funktional | Als ein Spieler möchte ich ein Buchstaben eintippen können, damit ich das Wort erraten kann|
 | 2    |      Muss       | Funktional | Als ein Spieler möchte ich am Rad drehen, damit ich einen Betrag erhalte|
 | 3    |      Muss       | Funktional | Als ein Spieler möchte ich auf "lösen" klicken, damit ich das Rätsel lösen kann|
-| 4    |      Muss       | Funktional | Als ein Spieler möchte ich sehen, welche Bichstaben noch zur Verfügung stehen und welche nicht, damit es nicht zu wiederholungen kommt|
+| 4    |      Muss       | Funktional | Als ein Spieler möchte ich sehen, welche Buchstaben noch zur Verfügung stehen und welche nicht, damit es nicht zu wiederholungen kommt|
 | 5    |       Muss      | Funktional | Als ein Spieler möchte die jetztige Zahl an Runden ansehen, damit ich weiss in welcher Runde ich mich befinde|
 | 6    |       Muss      | Funktional | Als ein Spieler möchte ich jederzeit aufhören können, damit ich meinen Gewinn in der Highscore-Liste übernehmen kann.|
 | 7    |       Muss      | Funktional | Als ein Spieler möchte ich meinen Namen eintragen können, damit dieser auf der Highscore-Liste erscheint|
-
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
-
 
 
 # 4.2 Testfälle
@@ -78,11 +68,7 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
 | 6.1  | Das Spiel ist gespielt / wird noch gespielt | Der Spieler drückt auf "aufhören" | Der Gewinn des Spieler wird übernommen|
 | 7.1  | Das Spiel is am laufen | Der Name des Spielers, Beispiel: "Marko" | Ausgabe in der Highscore-Liste wird dann "Marko" sein|
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
 # 5 Prototyp
-
-✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
 #### Willkommensseite (Spielername eintragen oder sich als Admin einloggen)
 ![image](https://user-images.githubusercontent.com/69591610/213945317-f6497e4a-6edd-4b29-9c12-a68a262f55c8.png)
 
@@ -96,28 +82,33 @@ In diesem Projekt, werde ich ein bekanntes Quizspiel, das Glücksrad, programmie
 
 # 6 Implementation
 
-✍️ Halten Sie fest, wann Sie welche User Story bearbeitet haben
-
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-| ...        |       |              |
+| 7    | 21.02.2023| Nur das man den Spielernamen eintragen kann.|
+| 1    | 26.02.2023      |   play_game gemacht und in game.html eingebunden|
+| 4    | 26.02.2023| play_game|
+
 
 # 7 Projektdokumentation
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja / nein |                                           |
-| ...  |           |                                           |
+| 1    | ja  |    'game.html', 'views.py -> play_game()'     |
+| 4 |  ja (teilweise)    |    Man sieht die nur die richtig vorgekommenen Buchstaben, 'views.play_game'   |
+| 7| ja (teilweise)| Spielername kann eingetragen werden, wird aber nicht angezeigt. 'views.py -> add_player'
+
+Video: 
+
 
 # 8 Testprotokoll
-
-✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
+[![IMAGE ALT TEXT HERE](http://i3.ytimg.com/vi/rq_8SIujlYI/hqdefault.jpg)](https://youtu.be/rq_8SIujlYI)
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  |       |          |        |
 | ...  |       |          |        |
 
+#### Fazit
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
 # 9 `README.md`

@@ -97,9 +97,6 @@ Die Datenbank wird mit dem Framework, Django, gesteurt und verwaltet. Für die S
 | 4 |  ja (teilweise)    |    Man sieht die nur die richtig vorgekommenen Buchstaben, 'views.play_game'   |
 | 7| ja (teilweise)| Spielername kann eingetragen werden, wird aber nicht angezeigt. 'views.py -> add_player'
 
-Video: 
-
-
 # 8 Testprotokoll
 [![IMAGE ALT TEXT HERE](http://i3.ytimg.com/vi/rq_8SIujlYI/hqdefault.jpg)](https://youtu.be/rq_8SIujlYI)
 
@@ -112,8 +109,7 @@ Video:
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
 # 9 `README.md`
-
-✍️ Beschreiben Sie ausführlich in einer README.md, wie Ihre Applikation gestartet und ausgeführt wird. Legen Sie eine geeignete Möglichkeit (Skript, Export, …) bei, Ihre Datenbank wiederherzustellen.
+https://github.com/ItsAMeMaria/SoldoMaria_LB151/blob/main/README.md
 
 # 10 Allgemeines
 
